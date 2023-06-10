@@ -54,6 +54,6 @@ Add to the Printer.cfg file
 [input_shaper]
 shaper_freq_x: 70
 shaper_type_x: mzv
-shaper_freq_y: 34.6
+shaper_freq_y: 47.6
 shaper_type_y: mzv
 ```
