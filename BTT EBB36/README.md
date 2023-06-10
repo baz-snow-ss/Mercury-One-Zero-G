@@ -82,6 +82,7 @@ make
 If you have CanBOOT installed
 Run a `python3 ~/CanBoot/scripts/flash_can.py -i can0 -q` and take note of the CanBoot device that it shows:
 ![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/35e531c9-25b1-4ce2-b1cf-c90e0f00e260)
+
 Then run the following command to install klipper firmware via CanBOOT. Use the UUID you just retrieved in the above query.
 ```
 python3 ~/CanBoot/scripts/flash_can.py -i can0 -u 918c224b9a4c -f ~/klipper/out/klipper.bin
