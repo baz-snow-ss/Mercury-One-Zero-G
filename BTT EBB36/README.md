@@ -68,3 +68,40 @@ Detected UUID: 45a3695bb38a, Application: Klipper
 Detected UUID: 918c224b9a4c, Application: CanBoot
 ```
 
+### Installing Klipper
+
+Pick the correct setting for Klipper config
+```
+cd ~/klipper/
+make menuconfig
+```
+```
+make clean
+make
+```
+If you have CanBOOT installed
+Run a `python3 ~/CanBoot/scripts/flash_can.py -i can0 -q` and take note of the CanBoot device that it shows:
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/35e531c9-25b1-4ce2-b1cf-c90e0f00e260)
+Then run the following command to install klipper firmware via CanBOOT. Use the UUID you just retrieved in the above query.
+```
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -u 918c224b9a4c -f ~/klipper/out/klipper.bin
+```
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/07f23b82-4a3f-42db-8724-e8862690f301)
+
+One the flash has been completed you can run the
+`python3 ~/CanBoot/scripts/flash_can.py -i can0 -q` command again. This time you should see the same UUID but with "Application: Klipper" instead of "Application: CanBoot"
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/bcc1ebae-6e28-4b3a-b39c-6e969828b5c2)
+
+If you don't have CanBOOT installed
+To flash, connect your toolhead board to the Pi via USB and put it into DFU/BOOT mode (your toolhead board user manual should have instructions on doing this).
+
+```
+cd ~/klipper
+make flash FLASH_DEVICE=0483:df11
+```
+where the FLASH_DEVICE ID is the address of the USB device you noted down above.
+### Klipper is now installed.
+
+You can now run the Klipper canbus query to retrieve the canbus_uuid of your toolhead board:
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/dcd08846-b539-480d-820d-b4d82566a773)
+
