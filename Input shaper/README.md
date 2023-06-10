@@ -36,3 +36,24 @@ Resonances data written to /tmp/resonances_x_20230610_090838.csv file
 
 ![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/6bf2e58f-3674-44ad-a9aa-dac3d0b604b2)
 
+
+```
+TEST_RESONANCES AXIS=Y
+```
+Resonances data written to /tmp/resonances_y_20230610_091245.csv file
+```
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_20230610_091245.csv -o /tmp/shaper_calibrate_y.png
+```
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/5e6f75a3-7658-4f16-b95a-52c8f034d9e3)
+
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/5ea5038e-77a2-4756-ad6c-aa37432f2110)
+
+
+Add to the Printer.cfg file
+```
+[input_shaper]
+shaper_freq_x: ...
+shaper_type_x: ...
+shaper_freq_y: 34.6
+shaper_type_y: mzv
+```
