@@ -48,6 +48,23 @@ make
 ```
 Attch the USB, put the EBB36 in DFU Mode and check that it is.
 ```
-`dfu-util -l`
-`lsusb`
+dfu-util -l
+lsusb
 ```
+You can then flash the CanBOOT firmware to your toolhead board by running.
+```
+dfu-util -R -a 0 -s 0x08000000:force:mass-erase:leave -D ~/CanBoot/out/canboot.bin -d 0483:df11
+```
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/a8043d01-fd93-44b5-a05e-a576f8e79b3c)
+
+
+### CanBooT is now installed.
+```
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
+```
+![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/8dfb9c6c-f76a-4b9f-b06f-384e1da60e72)
+```
+Detected UUID: 45a3695bb38a, Application: Klipper
+Detected UUID: 918c224b9a4c, Application: CanBoot
+```
+
