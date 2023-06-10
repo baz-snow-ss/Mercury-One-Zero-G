@@ -1,5 +1,4 @@
 ![IMG20230224033410](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/e80267c8-05dd-4a9d-b60e-b63ff87da0a2)
-![IMG20230518114648](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/8829ef3f-e2fe-42e0-8442-abcce0695239)
 ![IMG20230606020840](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/41c9de22-5d79-4848-95d2-797457e99333)
 ![IMG20230606020848](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/142b54da-8e8a-47b7-9e10-c0db3f7410a8)
 ![IMG20230606020859](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/3920fc17-b402-4edd-a143-d76b741f3a7e)
