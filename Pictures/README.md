@@ -1,1 +1,12 @@
-{\rtf1}
+![IMG20230224033410](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/e80267c8-05dd-4a9d-b60e-b63ff87da0a2)
+![IMG20230518114648](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/8829ef3f-e2fe-42e0-8442-abcce0695239)
+![IMG20230606020840](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/41c9de22-5d79-4848-95d2-797457e99333)
+![IMG20230606020848](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/142b54da-8e8a-47b7-9e10-c0db3f7410a8)
+![IMG20230606020859](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/3920fc17-b402-4edd-a143-d76b741f3a7e)
+![IMG20230606020908](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/dce914c7-d4dc-4d72-ae11-436db05dabab)
+![IMG20230606020908](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/94d41a56-fc52-4ee3-80f3-570986718eb3)
+![IMG20230606020915](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/6ac84c37-d2f1-42ec-81db-570717e15b51)
+![IMG20230606020928](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/473e7675-9d9c-44db-a04f-7df90f779079)
+![IMG20230606021806](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/ac4aaf7a-b1d5-4716-a088-65829c4d3306)
+![IMG20230606021810](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/ab9bfa51-2522-4079-9f62-a95958333351)
+![IMG20230606021825](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/6c8b1771-475a-4d83-a8cb-cdaa5df31caf)
