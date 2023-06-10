@@ -91,6 +91,7 @@ python3 ~/CanBoot/scripts/flash_can.py -i can0 -u 918c224b9a4c -f ~/klipper/out/
 
 One the flash has been completed you can run the
 `python3 ~/CanBoot/scripts/flash_can.py -i can0 -q` command again. This time you should see the same UUID but with "Application: Klipper" instead of "Application: CanBoot"
+
 ![image](https://github.com/baz-snow-ss/Mercury-One-Zero-G/assets/99566898/bcc1ebae-6e28-4b3a-b39c-6e969828b5c2)
 
 If you don't have CanBOOT installed
