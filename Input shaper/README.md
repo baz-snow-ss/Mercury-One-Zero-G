@@ -52,8 +52,8 @@ Resonances data written to /tmp/resonances_y_20230610_091245.csv file
 Add to the Printer.cfg file
 ```
 [input_shaper]
-shaper_freq_x: ...
-shaper_type_x: ...
+shaper_freq_x: 70
+shaper_type_x: mzv
 shaper_freq_y: 34.6
 shaper_type_y: mzv
 ```
