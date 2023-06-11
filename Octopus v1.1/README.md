@@ -21,6 +21,7 @@ pip3 install pyserial
 ```
 
 ### Flashing Klipper
+`python3 ~/CanBoot/scripts/flash_can.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/` Add your ID `usb-CanBoot_stm32f446xx_280017001750344D30353320-if00`
 ```
 python3 ~/CanBoot/scripts/flash_can.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-CanBoot_stm32f446xx_280017001750344D30353320-if00
 ```
