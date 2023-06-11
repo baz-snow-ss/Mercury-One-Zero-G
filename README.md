@@ -5,7 +5,7 @@ Ender 5 Pro CoreXY Convertion
 
 
 
-### Hydra DOM
+### Hydra BOM
 
 - x3 350 mm MGN12H
 - x3 mgn9c 100mm rails
